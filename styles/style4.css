@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.box{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../image/girl.jpg);
+    background-size: cover;
+}
+.box-art{
+    width: 30%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 140px 0px;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    background: #B99674F0;
+    filter: opacity(75%);
+}
+.box-sec{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+.box-sec h1{
+    font-size: 50px;
+    line-height: 65px;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 600;
+    font-family: "Encode Sans";
+}
+.box-sec h2{
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 600;
+    font-family: "Encode Sans";
+}
+.box-aside{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.box-aside p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 600;
+    font-family: "Encode Sans";
+}
+.box-foot{
+    width: 80%;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 55px;
+    font-size: 20px;
+}
+.box-main{
+    width: 46%;
+    height: 79%;
+    background-color: #FFFFFF;
+    filter: opacity(85%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-main-div{
+    width: 70%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.box-main-div header h6{
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 28px;
+    text-align: center;
+    color: #0A0A0A;
+}
+.box-main-div header h2{
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    color: #0A0A0A;
+}
+.box-main-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.box-main-form input{
+    width: 100%;
+    height: 50px;
+    padding: 12px 20px;
+    border: 0.5px solid;
+    border-radius: 6px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #0A0A0A;
+}
+.box-main-form textarea{
+    width: 100%;
+    height: 75px;
+    padding: 12px 20px;
+    border: 0.5px solid;
+    border-radius: 6px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #0A0A0A;
+    resize: none;
+}
+.box-main-form button{
+    width: 100%;
+    height: 55px;
+    text-align: center;
+    background-color: #0A0A0A;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
