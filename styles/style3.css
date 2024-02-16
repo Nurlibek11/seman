@@ -2,6 +2,7 @@
     padding: 0;
     margin:0;
     box-sizing: border-box;
+    
   }
   
   main{
@@ -10,7 +11,10 @@
     border-radius: 50%;
     margin: 200px auto;
     border: 2px solid green;
+    background-image: url(../image/girl2.jpg);
+    background-size: cover;
   }
+ 
 .box { 
     width: 50px; 
     height: 50px; 
@@ -21,6 +25,7 @@
     animation-duration: 5s;
     animation-timing-function: linear;
     animation-iteration-count: infinite; 
+    
 } 
 
 @keyframes GFG { 
